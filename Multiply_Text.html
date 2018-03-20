@@ -9,24 +9,52 @@
 function repeatMe(){
   // How do you sink a Norwegian submarine?...You swim down and knock on the hatch!!!
   var val = document.getElementById('inputField').value;
-  document.getElementById('result').innerHTML = "Yass, That Iz-ing The Rightz, Me Knowz U Name Andz Willz Be Stealingz U Identity-ingz, "+val;
+  document.getElementById('result').innerHTML = "Yass, That Iz-ingz The Rightz, Me Knowz U Name Andz Willz Be Stealingz U Identity-ingz, " +val;
 }
+function printMyLines(textToRepeat, soManyTimes){
+  var result = "";
+  var i = 0;
+
+  for (i = 0; i < soManyTimes; i++){
+  result += (i+1)+": "+textToRepeat + "<br>";
+  }
+  return result;
+  }function printMyLines(textToRepeat, soManyTimes){
+    var result = "";
+    var i = 0;
+
+    for (i = 0; i < soManyTimes; i++){
+    result += (i+1)+": "+textToRepeat + "<br>";
+    }
 </script>
 </head>
 <body bgcolor="Lightblue">
-
+  <script>
+     // This is a single line comment
+     alert("U Haz Beenz Haxedz!");
+  </script>
+  <script>
+  var user = prompt("Enterz Naming Of U Pet");
+alert(user)
+</script>
+<script>
+var user = prompt("Aring U The Hungryz");
+alert(user)
+</script>
 <h1 style="color:Orange; text-align: center">Multiply Text</h1>
 
-<p style="color:Orange;">I Knowz Who U Iz-ing!!!</p>
+<p style="color:Orange;">I Knowz Who U Iz-ingz!!!</p>
 
 <p style="color:Orange;">Typez U Name And Me Willz Be Proving That!!!</p>
 
 <input type="text" id="inputField">
-<button onclick="repeatMe(10)" style="text-align: center">Clickz The Me PLZ. (O_o)</button>
+<button onclick="repeatMe()" style="text-align: center">Clickz The Me PLZ. (O_o)</button>
 <p style="color:Orange;">Uz Letz The Start!</p>
 <div id="result"> </div>
-
-<a href="file:///Z:/Kebub/index.html">BRINGZ ME THE HOME!!!</a>
+<script>
+document.write(printMyLines(+val, 10));
+</script>
+<a href="file:///Z:/Kebub/index.html">BRINGZ ME THE HOMEZ!!!</a>
 </body>
 
 </html>
