@@ -8,39 +8,29 @@
 
 function repeatMe(){
   // How do you sink a Norwegian submarine?...You swim down and knock on the hatch!!!
+  var result="";
   var val = document.getElementById('inputField').value;
-  document.getElementById('result').innerHTML = "Yass, That Iz-ingz The Rightz, Me Knowz U Name Andz Willz Be Stealingz U Identity-ingz, " +val;
+
+  for (i = 0; i < 10; i++){
+    result += (i+1)+": "+val + "<br>";
+  }document.getElementById('result').innerHTML = "Haz, Haz,I haz stolenz U Identety-ingz "+result;
 }
-function printMyLines(textToRepeat, soManyTimes){
-  var result = "";
-  var i = 0;
 
-  for (i = 0; i < soManyTimes; i++){
-  result += (i+1)+": "+textToRepeat + "<br>";
-  }
-  return result;
-  }function printMyLines(textToRepeat, soManyTimes){
-    var result = "";
-    var i = 0;
-
-    for (i = 0; i < soManyTimes; i++){
-    result += (i+1)+": "+textToRepeat + "<br>";
-    }
 </script>
 </head>
 <body bgcolor="Lightblue">
-  <script>
-     // This is a single line comment
-     alert("U Haz Beenz Haxedz!");
-  </script>
-  <script>
-  var user = prompt("Enterz Naming Of U Pet");
-alert(user)
-</script>
-<script>
-var user = prompt("Aring U The Hungryz");
-alert(user)
-</script>
+        <script>
+               // This is a single line comment (duh)!
+               alert("U Haz Beenz Haxedz!");
+        </script>
+        <script>
+                var user = prompt("Enterz Naming Of U Pet");
+                alert(user)
+        </script>
+        <script>
+                var user = prompt("Aring U The Hungryz");
+                alert(user)
+        </script>
 <h1 style="color:Orange; text-align: center">Multiply Text</h1>
 
 <p style="color:Orange;">I Knowz Who U Iz-ingz!!!</p>
