@@ -2,21 +2,25 @@
 <html>
 <head>
 <title>Function printMyArray </title>
-<script>
-printMyArray()
+       <script>
+function printMyArray(){
 
-for (i = 0; i < soManyTimes; i++){
-myArray += (i+1)+": "+textToRepeat + "<br>";
+  var teachers = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
+  var i=0;
+  var rslt= "";
 
-var teachers = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
-var i=1
-</script>
+for (i = 0; i < teachers.length; i++){
+rslt += (i+1)+": "+teachers[i] + "<br>";
+
+
+}return rslt;}
+       </script>
 </head>
 <body>
 <h1>Function printMyArray</h1>
-
-
-
-<a href="file:///Z:/Kebub/index.html">You Go Home</a>
+       <script>
+              document.write(printMyArray())
+       </script>
+<a href="file:///Z:/Kebub/index.html">Take Me Home!!!</a>
 </body>
 </html>
